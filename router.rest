@@ -1,0 +1,24 @@
+
+// for multiple record
+###
+GET http://localhost:3000/api
+
+
+// for single record 
+### 
+GET http://localhost:3000/api/62ad726c176df46e2912772d
+
+// for inset record 
+###
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name":"mi tv",
+    "desc":"smart full hd led 43 inch",
+    "price":86000 
+}
+
+// for delete single record 
+###
+DELETE http://localhost:3000/api/62ad73b7176df46e2912772f
